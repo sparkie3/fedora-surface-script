@@ -20,6 +20,6 @@ scripts     Function
 2.sh        install the linux-surface kernel and its dependencies - Reboot ok [password is {surface}]
 3.sh        enable surface kernel - include systemd command just incase
 4.sh        calibration for surface
-
+5.sh        calibration - extended - not tested - if it didn't work just redo 4.sh
 
 you can check the content by right click and open with Kwrite
