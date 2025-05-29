@@ -1,4 +1,4 @@
-** for fedora only
+** for Debian / Ubuntu only
 ** for surface only
 
 to run it.
@@ -12,13 +12,12 @@ then type
 
 sudo chmod +x 1.sh
 sudo chmod +x 2.sh
-sudo chmod +x 3.sh
-sudo chmod +x 4.sh
+....etc
 
 scripts     Function
-1.sh        fedora update and upgrade - install the linux-surface kernel and its dependencies - Reboot ok [password is {surface}]
+1.sh        Debian / Ubuntu update and upgrade install the linux-surface kernel and its dependencies - Reboot ok [password is {surface}]
 2.sh        enable surface kernel - include systemd command just incase
 3.sh        calibration for surface
 4.sh        calibration - extended - not tested - if it didn't work just redo 4.sh
-
+p1.sh       solves eror 404
 you can check the content by right click and open with Kwrite
