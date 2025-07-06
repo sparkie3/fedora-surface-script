@@ -1,5 +1,6 @@
 ** for fedora only
 ** for surface only
+- updated -
 
 to run it.
 in the folder they are in - right click and select open terminal here

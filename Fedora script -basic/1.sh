@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "update Fedora"
+echo "update Fedora it will ask for your password"
 sudo dnf update -y
 sudo dnf upgrade -y
 echo "add the repository"
@@ -13,6 +13,7 @@ sudo dnf config-manager \
 
 echo "install the linux-surface kernel and its dependencies"
 
+sudo dnf install --allowerasing kernel-surface iptsd libwacom-surface
 sudo dnf install surface-secureboot
 
 echo "follow the instructions or you will have to uninstall and repeat"
