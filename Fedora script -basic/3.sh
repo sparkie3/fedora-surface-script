@@ -7,7 +7,7 @@ mkdir iptsd.d
 cd /etc/iptsd.d/
 echo "creating calibration file"
 sudo touch 90-calibration.conf
-echo" calibration data and insert it in the calibration file"
+echo "calibration data and insert it in the calibration file"
 sudo echo "[Contacts]
 SizeMin = 0.325
 SizeMax = 2.159
